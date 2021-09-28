@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Guion',
+    componenteFormativo:
+      'Componente Formativo con un nombre extremadamente largo y extenso',
     descripcionCurso:
-      'Crear ideas nuevas y sólidas es una de las labores más complicadas en la creación audiovisual, la inspiración no proviene de un lugar mágico reservado para unos pocos, la realidad requiere de trabajo constante y disciplinado acompañado de mucho consumo cultural, ya que como en cualquier industria es muy complicado crear de la nada.<br><br>Por lo anterior, a lo largo de este componente se exploran diversos aspectos orientados a proveer herramientas para alcanzar la inspiración en el proceso de crear historias, desde diversas formas para generar ideas, pasando por las estructuras narrativas y la construcción de personajes, hasta llegar al proceso para escribir un guion.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -12,12 +13,6 @@ export default {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
-      },
-      {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
@@ -59,13 +54,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: '1.6 Cartografía social',
+            titulo: 'Cartografía social',
             hash: 't_1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: '1.7 Cuaderno de ideas',
+            titulo: 'Cuaderno de ideas',
             hash: 't_1_7',
           },
         ],
@@ -74,44 +69,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Esquemas de narración',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Modelo Aristotélico y el paradigma',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'El viaje del héroe',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -119,56 +90,32 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Creación y diseño de personajes',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Guion',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
+            numero: '4.1',
+            titulo: 'El guion en la animación',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            numero: '4.2',
+            titulo: 'Guion literario',
+            hash: 't_4_2',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -199,141 +146,122 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Aranda, D. Pujol, C. y Felipe, F. (2016). Cómo construir un buen guion audiovisual. Editorial UOC. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/58615',
     },
+
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Baiz, F. (s.f). Claves para la escritura de un buen guion de cine. Consultado el 28 de agosto de 2020 en: ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://issuu.com/pedromenesesmontes/docs/claves-para-la-escritura-de-un-buen',
     },
+
+    {
+      referencia: 'Castillo, A. P. (2013). Estructura dramática. ',
+      link: 'https://es.calameo.com/read/004944011fa9360605829',
+    },
+
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Cubero, D. E. (2017). Cómo aplicar el viaje del héroe a tu historia. ',
+      link: 'https://cursosdeguion.com/55-como-aplicar-viaje-del-heroe/',
     },
+
     {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      referencia: 'Field, S. (1995). El manual del guionista. Plot Ediciones. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.laescaleta.mx/wp-content/uploads/2017/09/syd-field-el-manual-del-guionista-.pdf',
     },
+
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Forero, M. T. (2017). Los secretos de un buen guion. Eudeba. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/119864',
     },
+
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Hunt, R. E., Marland J., Richards, J. & Carvajal, A. (2010). Bases Del Cine: Guion. Parramón. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/156au80/sena_aleph000054287',
     },
+
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Voytilla, S. (1999). Myth and the Movies: Discovering the Mythic Structure of 50 Unforgettable Films. Studio City CA, EEUU: Michael Wiese Productions. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.tlu.ee/~rajaleid/montaazh/Hero%27s%20Journey%20Arch.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Arquetipo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'modelo o patrón original que sirve como pauta, del cual se derivan otros objetos, ideas o conceptos.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Clímax',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es el punto de mayor tensión dramática, después del cual todo se concluye o soluciona.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Flashback',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es un recurso usado en el cine para mostrar acciones del pasado o recuerdos del personaje.',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Flashforward',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'es un recurso usado en el cine para mostrar acciones del futuro.',
     },
     {
-      termino: 'Moda',
+      termino: 'Peripecia',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'las peripecias normalmente son situaciones adversas que suceden repentinamente y logran alterar la determinación del personaje central. De esta manera las peripecias cambian la condición en la que se encuentra la historia, pero no consiguen resolver el conflicto; sin embargo, logran acercar al personaje a su meta u objetivo.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Punto argumental (plot point)',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'acontecimiento que cambia radicalmente el sentido de la acción o historia.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'David Esteban Cubero, (2017), Cómo aplicar el viaje del héroe a tu historia.',
+      tipo: 'Podcast, blog',
+      link: 'https://cursosdeguion.com/55-como-aplicar-viaje-del-heroe/ ',
+    },
+    {
+      texto: 'Sala 1 - Canal de cine y series, (2017), El Viaje del Héroe.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=RF1uKuKCIgE',
+    },
+    {
+      texto: 'Luis Francisco Pérez, (s.f.), Curso cinematográfico.',
+      tipo: 'Página web',
+      link: 'https://aprendercine.com/',
+    },
+    {
+      texto: 'Luis Francisco Pérez, (s.f.), Curso cinematográfico.',
+      tipo: 'Canal de YouTube Aprendercine.com',
+      link: 'https://www.youtube.com/c/Aprendercinecom',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Sinjania, (2019), 25 cosas en las que pensar antes de crear un personaje.',
+      tipo: 'Portal web',
+      link: 'https://www.sinjania.com/crear-un-personaje/',
+    },
+
+    {
+      texto: 'Andrew Stanton, (2012), The Clues to a great story.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.ted.com/talks/andrew_stanton_the_clues_to_a_great_story ',
     },
   ],
   creditos: {
@@ -349,7 +277,35 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jhon Alexander García',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Oscar Andrés Martin',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Evaluador Instruccional',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Correctora de estilo',
+        centro:
+          'Centro para la Industria y la Comunicación Gráfica – Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -365,14 +321,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Eulises Orduz'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Ricardo Alfonso González Vargas',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

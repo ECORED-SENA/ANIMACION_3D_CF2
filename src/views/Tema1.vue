@@ -37,8 +37,8 @@
               figure
                 img.img-a(src='@/assets/curso/tema_1/img_2.png', alt='')
             .col-lg-9.mb-4.mb-lg-0
-              strong The rule of nine: learning to willingly fail
-              p.mb-0 Vorhaus says, “Depressing? Not really. In fact, the rule of nine turns out to be highly liberating because once you embrace it, you instantly and permanently lose the toxic expectation of succeeding every time. It’s that expectation and the consequent fear of failure that give your ferocious editor power over you. Remove the expectation and you remove the power.”
+              strong #[i The rule of nine: learning to willingly fail]
+              p.mb-0 #[i Vorhaus says, “Depressing? Not really. In fact, the rule of nine turns out to be highly liberating because once you embrace it, you instantly and permanently lose the toxic expectation of succeeding every time. It’s that expectation and the consequent fear of failure that give your ferocious editor power over you. Remove the expectation and you remove the power.”]
 
     separador
     .titulo-segundo(data-aos="flip-up")
