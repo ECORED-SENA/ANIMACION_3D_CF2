@@ -1,9 +1,8 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Guion',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Crear ideas nuevas y sólidas es una de las labores más complicadas en la creación audiovisual, la inspiración no proviene de un lugar mágico reservado para unos pocos, la realidad requiere de trabajo constante y disciplinado acompañado de mucho consumo cultural, ya que como en cualquier industria es muy complicado crear de la nada.<br><br>Por lo anterior, a lo largo de este componente se exploran diversos aspectos orientados a proveer herramientas para alcanzar la inspiración en el proceso de crear historias, desde diversas formas para generar ideas, pasando por las estructuras narrativas y la construcción de personajes, hasta llegar al proceso para escribir un guion.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
