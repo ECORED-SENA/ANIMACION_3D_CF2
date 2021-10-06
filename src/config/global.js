@@ -208,11 +208,13 @@ export default {
     },
     {
       termino: 'Flashback',
+      terminoHtml: '<em>Flashback</em>',
       significado:
         'es un recurso usado en el cine para mostrar acciones del pasado o recuerdos del personaje.',
     },
     {
       termino: 'Flashforward',
+      terminoHtml: '<em>Flashforward</em>',
       significado:
         'es un recurso usado en el cine para mostrar acciones del futuro.',
     },
@@ -320,8 +322,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Eulises Orduz'],
+        nombre: ['Eulises Orduz Amezquita'],
         cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -338,7 +346,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

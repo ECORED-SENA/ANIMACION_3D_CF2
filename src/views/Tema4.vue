@@ -39,7 +39,7 @@
 
                 p Generalmente las mejores ideas nacen de experiencias, aunque también pueden surgir de conocimientos tanto propios como ajenos que generen el interés suficiente para querer contar algo a partir de ellos. Ya sea un caso u otro, es fundamental tratar de saber todo lo posible sobre ese tema y de esta forma validar los conocimientos y adquirir nuevas perspectivas que contribuyan a plantar unos cimientos fuertes sobre los cuales fundamentar la historia.  
               .row(numero="2" titulo="<em>Logline</em>")
-                p El logline es una frase atractiva que busca cautivar la atención de un posible productor, existe dada la escasez de tiempo de los ejecutivos del cine y resume en una o dos oraciones todos los elementos importantes de la obra; mediante el logline se puede validar rápidamente si la historia funciona o no.
+                p El #[i logline] es una frase atractiva que busca cautivar la atención de un posible productor, existe dada la escasez de tiempo de los ejecutivos del cine y resume en una o dos oraciones todos los elementos importantes de la obra; mediante el #[i logline] se puede validar rápidamente si la historia funciona o no.
               .row(numero="3" titulo="Premisa")
                 p La premisa es una proposición concentrada en una frase mediante la cual se afirma o niega algo y presenta una conclusión. Según el autor Lajos Egri “una buena premisa es una sinopsis exacta de su drama” y se compone de 3 partes:
                 ul.lista-ul--color.mb-5
@@ -55,14 +55,14 @@
                     i.lista-ul__vineta
                     | Un ogro se embarca en una aventura para recuperar su hogar y en el proceso descubre el amor.
               .row(numero="4" titulo="<em>Storyline</em>")
-                p En el storyline se presenta el argumento dramático de la historia sintetizado, en él se expone el planteamiento de la historia, el nudo y su desenlace en uno o dos párrafos, esto quiere decir que se añaden más detalles con respecto a la premisa, pero aún falta desarrollo para llegar a convertirse en un guion.
+                p En el #[i storyline] se presenta el argumento dramático de la historia sintetizado, en él se expone el planteamiento de la historia, el nudo y su desenlace en uno o dos párrafos, esto quiere decir que se añaden más detalles con respecto a la premisa, pero aún falta desarrollo para llegar a convertirse en un guion.
 
                 p 
                   strong Para continuar con el ejemplo, el siguiente sería el #[i storyline] de #[i Shrek]:
 
                 p Un ogro gruñón que disfruta vivir en soledad, un día encuentra el pantano donde vive invadido por criaturas de cuentos de hadas desterradas por #[i Lord Farquaad] (planteamiento). Al ir el ogro a reclamarle por la invasión a su pantano obtiene el “privilegio” de rescatar una princesa para #[i Lord Farquaad], bajo amenaza de muerte y con la promesa de recuperar su hogar solo para él, tras muchos percances logra llevar a la princesa a #[i Farquaad] pero en el camino se enamora de ella aunque cree que no es correspondido (nudo). El ogro se arrepiente de haberla entregado y regresa al reino para interrumpir la boda, para su sorpresa es correspondido y termina casándose con la princesa para vivir felices en su pantano (desenlace).
               .row(numero="5" titulo="Argumento")
-                p.mb-5 El siguiente paso para la escritura del guion es el argumento, en él se desarrollan muchos más elementos importantes para la trama de la historia que en el storyline, en este paso se depositan todos los puntos claves de la historia exponiendo la totalidad de la misma, se evidencian los actos, nudos de la trama, puntos de giro y clímax, aún sin detalle a profundidad, pero ya se dilucidan todos los acontecimientos importantes en la historia. Para un largometraje suele tener de 1 a 2 páginas, aunque estas medidas siempre son variables dependiendo del autor y la extensión del audiovisual.
+                p.mb-5 El siguiente paso para la escritura del guion es el argumento, en él se desarrollan muchos más elementos importantes para la trama de la historia que en el #[i storyline], en este paso se depositan todos los puntos claves de la historia exponiendo la totalidad de la misma, se evidencian los actos, nudos de la trama, puntos de giro y clímax, aún sin detalle a profundidad, pero ya se dilucidan todos los acontecimientos importantes en la historia. Para un largometraje suele tener de 1 a 2 páginas, aunque estas medidas siempre son variables dependiendo del autor y la extensión del audiovisual.
 
                 .row.justify-content-center
                   .col-lg-5
@@ -125,14 +125,23 @@
     p.mb-5.text-center(data-aos="slide-left") 
       strong Cada escena inicia con un encabezado que contiene el número de la escena, la locación y el momento del día de la siguiente manera:
 
-    figure.mb-5(data-aos="slide-right")
-      img.img-a(src='@/assets/curso/tema_4/img_6.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mb-5(data-aos="slide-right")
+      .col-lg-8.bg_1.p-4
+        .row.justify-content-center.mb-3
+          .col-lg-6.p-2.bg_2
+            h5.mb-0.text-center 3	INT. APARTAMENTO - TARDE
+        .row.justify-content-center.mb-3
+          .col-lg-6.p-2.bg_2
+            h5.mb-0.text-center 12	EXT. PLAYA - DIA
+        .row.justify-content-center
+          .col-lg-6.p-2.bg_2
+            h5.mb-0.text-center 1	EXT. CASA/TERRAZA - NOCHE 
 
-    p(data-aos="slide-left") Bajo el encabezado se escribe la escena iniciando con una descripción breve del escenario y la acción a desarrollar, no se describe nada en pasado ni en futuro, aunque la acción mostrada sea un flashback o un flashforward, siempre se debe redactar en presente, puesto que el guion cuenta lo que se está viendo en la pantalla en el momento y su escritura debe ser sencilla.
+    p(data-aos="slide-left") Bajo el encabezado se escribe la escena iniciando con una descripción breve del escenario y la acción a desarrollar, no se describe nada en pasado ni en futuro, aunque la acción mostrada sea un #[i flashback] o un #[i flashforward], siempre se debe redactar en presente, puesto que el guion cuenta lo que se está viendo en la pantalla en el momento y su escritura debe ser sencilla.
 
     p(data-aos="slide-right") Al introducir un personaje se puede añadir una breve descripción del mismo entre paréntesis para la primera vez que aparece y su nombre se debe poner en mayúscula sostenida siempre.
 
-    p.mb-5(data-aos="slide-left") Cuando en hay intervención de diálogos, estos se ponen en posición centrada para diferenciarlos de la acción e inician con el nombre del personaje que los dice, cuando los diálogos son de alguien que no aparece en pantalla se acotan entre paréntesis así (OFF), por ejemplo, el diálogo de alguien en otra habitación. Sin embargo, cuando el diálogo es de una voz en off como en el caso de un narrador se acota con (V.O.) del inglés Voice Over.
+    p.mb-5(data-aos="slide-left") Cuando en hay intervención de diálogos, estos se ponen en posición centrada para diferenciarlos de la acción e inician con el nombre del personaje que los dice, cuando los diálogos son de alguien que no aparece en pantalla se acotan entre paréntesis así (#[i OFF]), por ejemplo, el diálogo de alguien en otra habitación. Sin embargo, cuando el diálogo es de una voz en #[i off] como en el caso de un narrador se acota con (V.O.) del inglés #[i Voice Over].
 
     .row.align-items-center.bg-color3.p-5(data-aos="slide-right")
       .col-lg-12.mb-4.mb-lg-0
