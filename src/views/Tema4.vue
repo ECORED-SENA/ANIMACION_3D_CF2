@@ -26,11 +26,8 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Al tomar la animación como vehículo para la narración se abre un abanico de posibilidades infinitas, pues, aunque comparte con estas algunas convenciones narrativas, no está supeditada al funcionamiento real del mundo permitiendo plantear panoramas y situaciones que son muy difíciles de crear en el mundo real (o incluso imposibles). Un ejemplo de esto es la película Avatar que aunque no es del género de animación, hace uso de esta para crear su universo, a pesar de que su guion fue concebido desde 1994 para iniciar su rodaje luego de la finalización de Titanic y ser estrenada en 1999, su director James Cameron determinó que la tecnología de la época no le permitiría realizar la visión que tenía para la película, razón por la cual la producción reinicio en 2005 para llegar a su estreno en 2009, causando gran revuelo y convirtiéndose en una de las películas más taquilleras de la historia.
-        
         p(data-aos="slide-right") Lo anterior sirve para evidenciar cómo la animación permite contar historias que no serían posibles de otras formas, sin embargo, es muy importante establecer desde el principio la visión que se desea lograr, ahí radica la importancia del guion, aunque no es una camisa de fuerza, si se constituye como una mara que permite trazar un rumbo para la producción.
-
         p.mb-5(data-aos="slide-left") En concordancia, para establecer una estructura narrativa es importante introducir una serie de elementos contextuales que ayuden a construir las leyes de la historia, aspectos como la ubicación geográfica, la temporalidad, quiénes son los protagonistas, cuánto dura la pieza audiovisual y la historia en sí; pues todos estos factores afectan directamente a la estructura narrativa y brindan herramientas y restricciones para desarrollar el relato y por tanto, hacer buen uso de las posibilidades del género animado.   
-
         .row.justify-content-center.mb-5(data-aos="slide-right")
           .col-lg-10
             LineaTiempoD.color-primario
@@ -56,10 +53,8 @@
                     | Un ogro se embarca en una aventura para recuperar su hogar y en el proceso descubre el amor.
               .row(numero="4" titulo="<em>Storyline</em>")
                 p En el #[i storyline] se presenta el argumento dramático de la historia sintetizado, en él se expone el planteamiento de la historia, el nudo y su desenlace en uno o dos párrafos, esto quiere decir que se añaden más detalles con respecto a la premisa, pero aún falta desarrollo para llegar a convertirse en un guion.
-
                 p 
                   strong Para continuar con el ejemplo, el siguiente sería el #[i storyline] de #[i Shrek]:
-
                 p Un ogro gruñón que disfruta vivir en soledad, un día encuentra el pantano donde vive invadido por criaturas de cuentos de hadas desterradas por #[i Lord Farquaad] (planteamiento). Al ir el ogro a reclamarle por la invasión a su pantano obtiene el “privilegio” de rescatar una princesa para #[i Lord Farquaad], bajo amenaza de muerte y con la promesa de recuperar su hogar solo para él, tras muchos percances logra llevar a la princesa a #[i Farquaad] pero en el camino se enamora de ella aunque cree que no es correspondido (nudo). El ogro se arrepiente de haberla entregado y regresa al reino para interrumpir la boda, para su sorpresa es correspondido y termina casándose con la princesa para vivir felices en su pantano (desenlace).
               .row(numero="5" titulo="Argumento")
                 p.mb-5 El siguiente paso para la escritura del guion es el argumento, en él se desarrollan muchos más elementos importantes para la trama de la historia que en el #[i storyline], en este paso se depositan todos los puntos claves de la historia exponiendo la totalidad de la misma, se evidencian los actos, nudos de la trama, puntos de giro y clímax, aún sin detalle a profundidad, pero ya se dilucidan todos los acontecimientos importantes en la historia. Para un largometraje suele tener de 1 a 2 páginas, aunque estas medidas siempre son variables dependiendo del autor y la extensión del audiovisual.
